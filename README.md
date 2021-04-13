@@ -1,6 +1,9 @@
 # Netlify AB Testing
 
-> NOTE: It is a useful feature to power up beta releases original idea and code is from:
+> NOTE: It is a useful feature to power up beta releases original idea and code is from: Phil Hawksworth
+
+[Netlify Blog](https://www.netlify.com/blog/2019/09/11/netlify-pro-tip-using-split-testing-to-power-private-beta-releases/)
+[Youtube Video](https://www.youtube.com/watch?v=Q5-QTaAOSrY)
 
 You can create a beta release feature with it.
 
