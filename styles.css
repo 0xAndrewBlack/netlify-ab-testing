@@ -1,0 +1,11 @@
+.grid {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#btn-bbb {
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}

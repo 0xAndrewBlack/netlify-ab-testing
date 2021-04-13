@@ -1,0 +1,27 @@
+[[headers]]
+  for = "/*"
+
+  [headers.values]
+    X-From = "Netlify"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "no-referrer"
+    X-Content-Type-Options = "nosniff"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Split-Testing redirects to main site rather than to subdomain nor the weird url prefix one.
+[[redirects]]
+  from = "https://test--site.netlify.app"
+  to = "https://site.netlify.app"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://test--site.netlify.app/*"
+  to = "https://site.netlify.app/:splat"
+  status = 301
+  force = true
